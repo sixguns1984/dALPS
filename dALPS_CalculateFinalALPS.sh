@@ -41,3 +41,4 @@ with open(output_csv, 'w') as f:
             f.write(f'{id},{(alps_right_avg + alps_left_avg)}\n')
         else:
             f.write(f'{id},0\n')
+
