@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the dALPS method paper and the relevant dependencies listed in README."
+title: "dALPS (DTI-based ALPS index) toolkit"
+license: "MIT"
+preferred-citation:
+  type: article
+  title: "Deep learning enhanced ALPS reveals genetic and environmental factors of brain glymphatic function"
+  authors:
+    - family-names: Lin
+      given-names: Cha
+    - family-names: Wu
+      given-names: Hao
+    - family-names: Xian
+      given-names: Wenbiao
+    - family-names: Zheng
+      given-names: Yifan
+    - family-names: Du
+      given-names: Wenxuan
+    - family-names: Chen
+      given-names: Xinyi
+    - family-names: Li
+      given-names: Jinxia
+    - family-names: Chen
+      given-names: Weineng
+    - family-names: Lin
+      given-names: Lishan
+    - family-names: Su
+      given-names: Fengjuan
+    - family-names: Pei
+      given-names: Zhong
+    - family-names: Liu
+      given-names: Ganqiang
+  journal: "EBioMedicine"
+  year: 2026
+  volume: 124
+  pages: 106133
+  doi: "10.1016/j.ebiom.2026.106133"

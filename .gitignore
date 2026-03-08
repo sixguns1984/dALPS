@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Outputs
+outputs/
+work/
+rect_images/
+png/
+png_yes/
+resized_png/
+*.csv
+
+# Large model weights (recommended to keep out of git)
+models/*.h5
+models/*.pt
+
+# OS
+.DS_Store
+Thumbs.db

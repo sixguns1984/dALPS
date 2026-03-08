@@ -1,0 +1,14 @@
+# Core
+numpy
+pandas
+nibabel
+pillow
+matplotlib
+
+# Deep learning (choose GPU/CPU builds appropriate for your machine)
+tensorflow
+torch
+opencv-python
+
+# Optional but recommended
+tqdm
