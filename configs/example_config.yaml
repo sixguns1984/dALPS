@@ -1,0 +1,31 @@
+# Example configuration for dALPS pipeline
+
+# 1) Subject list
+ids_txt: examples/id.txt
+
+# 2) Where to find native-space NIfTI files
+#    - V1 files:  <ID>_V1.nii.gz
+#    - FA file:   <ID>_FA.nii.gz  (used by FSL ROI masking)
+v1_dir: /path/to/native_space_v1_files
+subjects_root: /path/to/subjects_root
+# subjects_root layout:
+#   subjects_root/<ID>/
+#     <ID>_FA.nii.gz
+#     vol0000.nii.gz
+#     vol0003.nii.gz
+#     vol0005.nii.gz
+
+# 3) Models
+cnn_weights: models/dALPS_CNN.h5
+yolo_weights: models/dALPS_YoloV5.pt
+
+# Optional: local yolov5 repo path (if you don't want torch.hub to download)
+# yolov5_repo: /path/to/yolov5
+
+# 4) Work/output folders
+work_dir: work
+out_dir: outputs
+
+# 5) Misc
+device: cuda:0   # or cpu
+rotate_k90: 1    # keep default = 1 to match legacy np.rot90(k=1)
