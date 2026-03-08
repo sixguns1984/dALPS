@@ -39,9 +39,7 @@ If you have questions or encounter issues while using this toolkit, you are welc
 
 ```
 dALPS/
-  models/                      # place pretrained weights here (not tracked by git by default)
-    dALPS_CNN.h5
-    dALPS_YoloV5.pt
+  models/                      # place pretrained weights here
   scripts/
     dalps_nii2png.py           # Step 1: V1 -> per-slice RGB PNG
     dalps_dl.py                # Step 2: CNN slice QC + YOLO ROI + boundary CSV
