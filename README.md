@@ -8,8 +8,6 @@ This repository provides a **native-space DTI** pipeline to compute the **(d)DTI
 - **YOLOv5-based ROI detection**, and
 - **FSL-based tensor-component statistics** within the detected ROIs.
 
-The code in `scripts/` is a cleaned, CLI-friendly version of the original implementation (the original scripts are preserved in `legacy/`).
-
 ---
 
 ## Citation (required)
