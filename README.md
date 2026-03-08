@@ -51,7 +51,6 @@ dALPS/
     example_config.yaml
   examples/
     id.txt
-  legacy/                      # original scripts (for reference)
   work/                        # intermediate outputs (created at runtime)
   outputs/                     # final outputs (created at runtime)
 ```
