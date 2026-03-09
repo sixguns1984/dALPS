@@ -29,7 +29,7 @@ If you use this toolkit in your research, please cite **the dALPS method paper**
 
 ## Contact
 
-If you have questions or encounter issues while using this toolkit, you are welcome to contact the **first author** of the dALPS paper:
+If you have questions or encounter issues while using this toolkit, you are welcome to contact the **first author**  or the **corresponding author** of the dALPS paper:
 
 - **Cha Lin** — linch58@mail2.sysu.edu.cn
 - **Prof. Ganqiang Liu** — liugq3@mail.sysu.edu.cn
