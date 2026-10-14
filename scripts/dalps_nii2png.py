@@ -1,5 +1,6 @@
 \
 #!/usr/bin/env python3
+"""
 dALPS step 1: Convert native-space V1 NIfTI (<ID>_V1.nii.gz) to per-slice RGB PNGs.
 
 The legacy script wrote intermediate TXT files and looped voxel-by-voxel (slow).
@@ -11,7 +12,7 @@ Output naming (default):
 Note on orientation:
     The legacy code applied np.rot90(image, k=1) before saving.
     To stay compatible, default rotate_k90=1 (same behavior).
-
+"""
 from __future__ import annotations
 
 import argparse
