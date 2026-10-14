@@ -1,5 +1,6 @@
 \
 #!/usr/bin/env python3
+"""
 dALPS step 4: Calculate per-slice ALPS and aggregate per-subject ALPS.
 
 Input: output.csv from FSL extraction (step 3)
@@ -17,7 +18,7 @@ Aggregation rule (legacy-compatible):
       - final = mean of (right_avg, left_avg) if both non-zero,
                 else sum (only one side),
                 else 0.
-
+"""
 from __future__ import annotations
 
 import argparse
