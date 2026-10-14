@@ -1,5 +1,6 @@
 \
 #!/usr/bin/env python3
+"""
 dALPS step 2: Slice QC (CNN) + ROI detection (YOLOv5) + boundary CSV.
 
 Pipeline:
@@ -18,7 +19,7 @@ Coordinate system
 - Coordinates are in PNG pixel space.
 - The downstream FSL extraction assumes the PNG pixel space matches NIfTI voxel x/y (after rotate_k90).
   Please validate on a few subjects by visual inspection.
-
+"""
 from __future__ import annotations
 
 import argparse
